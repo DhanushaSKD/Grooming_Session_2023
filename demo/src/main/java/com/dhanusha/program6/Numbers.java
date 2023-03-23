@@ -27,8 +27,6 @@ public class Numbers {
             System.out.println(e.getMessage());
         }
         
-
-        
     }
 
 }
