@@ -1,6 +1,6 @@
 //Java program to accept two numbers as command line arguments and print the addition of those numbers.
 
-package com.dhanusha;
+package com.dhanusha.program1;
 
 public class Sum 
 {
