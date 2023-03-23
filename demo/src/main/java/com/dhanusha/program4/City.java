@@ -1,8 +1,8 @@
 package com.dhanusha.program4;
 
-public class City extends State{ 
-    public void name() {
-        System.out.println("City: Coimbatore");
+public class City extends Capital{ 
+    public void name(String city) {
+        System.out.println("City: "+city);
     }
 
     public void own(String college) {

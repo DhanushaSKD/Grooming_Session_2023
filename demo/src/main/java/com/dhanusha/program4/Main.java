@@ -3,10 +3,10 @@ package com.dhanusha.program4;
 public class Main {
     public static void main (String[] agrs) {
 
-        State obj1 = new State();
-        obj1.name();
-        State obj2 = new City();
-        obj2.name();
+        Capital obj1 = new Capital();
+        obj1.name("Coimbatore");
+        Capital obj2 = new City();
+        obj2.name("Coimbatore");
 
         City obj3 = new City();
         obj3.own("Agri University");
