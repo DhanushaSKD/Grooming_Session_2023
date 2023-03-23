@@ -1,6 +1,6 @@
 package com.dhanusha.program2.students;
 
-import com.dhanusha.program2.departments.*;;
+import com.dhanusha.program2.departments.*;
 
 public class Student extends Department {
 
