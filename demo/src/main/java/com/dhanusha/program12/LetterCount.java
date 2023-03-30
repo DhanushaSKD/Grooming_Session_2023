@@ -6,11 +6,11 @@ public class LetterCount {
 
     public static void main(String[] args) {
 
-        String s = "";
+        String s = "Helo";
 
         try {
             if (s.length() == 0) {
-                throw new MyException("String is empty");
+                throw new EmptyStringException("String is empty");
             }
 
             char letters[] = s.toCharArray();
@@ -43,13 +43,18 @@ public class LetterCount {
             }
 
             if (result.size() == letters.length) {
-                throw new MyException("String contains only unique characters...");
+                throw new NoRepeatedCharacterException("String contains only unique characters...");
+                // throw new RuntimeException("String contains only unique characters...");
             }
             System.out.println("Maximum occuring characters: " + result);
 
-        } catch (MyException e) {
+        } catch (EmptyStringException e) {
             System.out.println(e.getMessage());
         }
+        finally {
+            System.out.println("Finally block is executed...");
+        }
+        System.out.println("rest of the code...");
 
     }
 

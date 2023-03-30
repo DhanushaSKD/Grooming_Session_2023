@@ -6,7 +6,7 @@ public class App {
 
         Citizen citizen1 = new Citizen(432187659090L, "Dhanusha");
 
-        citizen1.show();
+        System.out.println("Citizen Name: "+citizen1.getName()+", Aadhar Number: "+citizen1.getName());
 
         // citizen1.aadharNo = 123456789090L;       //error - final variable
 

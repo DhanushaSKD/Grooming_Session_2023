@@ -2,19 +2,23 @@ package com.dhanusha.program8;
 
 final class Citizen {
 
-    final long aadharNo;
+    private final long aadharNo;
 
-    private String name;
+    private final String name;
 
     Citizen(long aadharNo, String name) {
         this.aadharNo = aadharNo;
         this.name = name;
     }
 
-    void show() {
-        System.out.println("Citizen Name: "+name+", Aadhar Number: "+aadharNo);
+    public long getAadharNo() {
+        return aadharNo;
     }
-    
+
+    public String getName() {
+        return name;
+    }
+
 }
 
 //Citizen class is immutable it cannot be inherited.
